@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #110f10;
+    color: #100e0f;
+    scroll-behavior: smooth; 
+  }
+  
+  
+  header {
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(to right, #d9a5d1, #e02c98);
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #100c0c;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #f1e6e6;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    margin-bottom: 10px; 
+  }
+  
+  nav ul li a {
+    color: #161313;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+  color: #eee6e6;
+  }
+  
+   @media screen and (max-width: 768px) {
+    nav ul li {
+        margin-right: 10px; 
+        margin-bottom: 5px; 
+    }
+  }
+
+  section {
+    padding: 40px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #eae2e2;
+  }
+  
+  section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section ul li {
+    margin-bottom: 20px;
+  }
+  
+  section ul li strong {
+    font-size: 1.2em;
+  }
+  
+  section ul li p {
+    margin: 5px 0;
+  }
+  
+  .scrollable-section {
+    max-height: 500px; 
+    overflow-y: auto; 
+    scroll-behavior: smooth; 
+  }
+  
+  a {
+    color: #e1e7ec; 
+    text-decoration: none; 
+  }
+  
+  a:hover {
+    color: #a93596; 
+  }
+  
+  .timeline {
+  position: relative;
+  padding: 40px 0;
+  }
+  
+  .timeline-item {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #fba3e6, #a93596);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  }
+  
+  .timeline-content {
+  padding-left: 20px;
+  color: #fff
+  }
+  
+  .timeline-item:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+  }
+  
+  .timeline-item h3 {
+  margin-top: 0;
+  }
+  
+  .timeline-item p {
+  margin-bottom: 10px;
+  }
+  
+  footer {
+  text-align: center; 
+  }
+  
+  footer p {
+  margin: 0; 
+  }
+  
+  
+  #contact {
+  text-align: center;
+  }
+  
+  .contact-links {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px; 
+  }
+  
+  .contact-links a {
+    margin: 0 10px; 
+  }
+  
+  .contact-links a:hover img {
+    transform: scale(1.4);
+    transition: transform 0.3s ease;
+  }
+  
+  footer {
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.6); 
+      color: #0c0b0b; 
+      text-align: center; 
+  }
+  
