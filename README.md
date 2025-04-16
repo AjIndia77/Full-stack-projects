@@ -38,5 +38,5 @@ This repository contains my personal full-stack web development projects to prac
 ## 🧑‍💻 Author
 
 **Ambika**  
-Connect on [LinkedIn](https://linkedin.com) *(add your link)*  
+Connect on [LinkedIn](https://linkedin.com/in/ambika-joshi-58b628261) 
 
